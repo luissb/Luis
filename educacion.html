@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport">
+	<title>Hoja de Vida Digital</title>
+</head>
+    <body>
+        <header>
+            <svg width="200" height="100">
+	       <image xlink:href="img/logo.svg" x="-50px" y="1px" width="200px" ></image>
+            </svg>
+        </header>
+        <h1>Resumen Curricular</h1>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educacion</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+        <h2>Informacion Personal</h2>
+        <ul>
+            <li><strong>Nombre:</strong> Luis Andres</li>
+            <li><strong>Apellido:</strong> Sanchez Balboa</li>
+            <li><strong>Edad:</strong> 24 años</li>
+        </ul>
+        <h2>Educación</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <td><strong>Año</strong></td>
+                    <td><strong>Institución</strong></td>
+                    <td><strong>Lugar</strong></td>
+                    <td><strong>¿Culmino?</strong></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2000</td>
+                    <td>Primaria</td>
+                    <td>Mexico</td>
+                    <td>si</td>
+                </tr>
+                <tr>
+                    <td>2007</td>
+                    <td>Secundaria</td>
+                    <td>Mexico</td>
+                    <td>si</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>2013</td>
+                    <td>Preparatoria</td>
+                    <td>Mexico</td>
+                    <td>si</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>Agregar estudios</h2>
+        <form>
+            <p>
+                <label for="ano"><strong>Año: </strong></label>
+                <select name="ano">
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                </select>
+            </p>
+            <p>
+                <label for="institucion"><strong>Institución: </strong></label>
+                <input type="text" name="institucion" placeholder="Ej: escuela">
+            </p>
+            <p>
+                <label for="lugar"><strong>Lugar: </strong></label>
+                <textarea name="lugar" required></textarea>
+            </p>
+            <p>
+                <label for="culmino"><strong>¿Culminó? </strong></label>
+                <input type="radio" name="culmino">Si
+                <input type="radio" name="culmino">No
+            </p>
+            <p>
+                <input type="submit" value="Enviar"
+            </p>
+        </form>
+    </body>
+    <footer>
+        <h2>Contacto</h2>
+        <ul>
+            <li><strong>Email:</strong> luissanchezbalboa@gmail.com</li>
+            <li><strong>Telefono:</strong>1234567890</li>
+            <li><strong>Facebook:</strong> Andres Sanchez</li>
+        </ul>
+    </footer>
+</html>
